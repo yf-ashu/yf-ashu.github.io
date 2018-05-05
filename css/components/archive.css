@@ -20,13 +20,13 @@ article.archive {
   padding-bottom: 3px;
   -webkit-transition: box-shadow 0.15s;
   transition: box-shadow 0.15s;
-  box-shadow: inset 0 -2px 0 rgba(240,56,56,0);
+  box-shadow: inset 0 -2px 0 rgba(118,206,211,0);
 }
 .archive-post .archive-title a:hover {
   color: #212121;
 }
 .archive-post .archive-title a:hover span {
-  box-shadow: inset 0 -2px 0 rgba(240,56,56,0.4);
+  box-shadow: inset 0 -2px 0 rgba(118,206,211,0.4);
 }
 .archive-post time {
   font-style: italic;
@@ -39,5 +39,5 @@ article.archive {
   content: '#';
 }
 .archive-post time a:hover {
-  color: #f03838;
+  color: #76ced3;
 }

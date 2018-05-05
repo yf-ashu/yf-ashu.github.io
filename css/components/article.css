@@ -3,7 +3,7 @@ article {
   padding: 8rem 0;
 }
 article a {
-  color: #0227e0;
+  color: #76ced3;
 }
 article:not(:first-child):before {
   content: '';
@@ -19,7 +19,7 @@ article blockquote {
   margin: 6rem 2rem;
   padding-left: 15px;
   line-height: 2rem;
-  border-left: 4px solid #0227e0;
+  border-left: 4px solid #76ced3;
 }
 article .article-title {
   position: relative;
@@ -38,13 +38,13 @@ article .article-title a span {
   padding-bottom: 3px;
   -webkit-transition: 0.15s;
   transition: 0.15s;
-  box-shadow: inset 0 -2px 0 rgba(240,56,56,0);
+  box-shadow: inset 0 -2px 0 rgba(118,206,211,0);
 }
 article .article-title a:hover {
   color: #212121;
 }
 article .article-title a:hover span {
-  box-shadow: inset 0 -2px 0 rgba(240,56,56,0.4);
+  box-shadow: inset 0 -2px 0 rgba(118,206,211,0.4);
 }
 article .article-top-meta {
   position: relative;
@@ -60,7 +60,7 @@ article .article-top-meta a {
   color: #9e9e9e;
 }
 article .article-top-meta a:hover {
-  color: #0227e0;
+  color: #76ced3;
 }
 article .article-top-meta a time {
   font-style: italic;
@@ -109,7 +109,7 @@ article .article-footer .article-meta a {
   color: #9e9e9e;
 }
 article .article-footer .article-meta a:hover {
-  color: #0227e0;
+  color: #76ced3;
 }
 article .article-footer .article-meta i {
   vertical-align: middle;

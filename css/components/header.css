@@ -16,7 +16,7 @@ header .site-branding .site-title a {
   display: inline-block;
   color: #fff;
   font-weight: bolder;
-  background-color: #0227e0;
+  background-color: #76ced3;
   line-height: 3rem;
   height: 3rem;
   padding: 0 1rem;
@@ -46,8 +46,12 @@ header .site-navigation ul li {
 }
 header .site-navigation ul li a {
   display: block;
-  color: #0227e0;
+  color: #76ced3;
   font-size: 1.6rem;
   line-height: 2rem;
+  transition: box-shadow 0.15s;
   padding: 0 1rem;
+}
+header .site-navigation ul li:hover {
+  box-shadow: inset 0 1px 0 rgba(118,206,211,0.8);
 }
